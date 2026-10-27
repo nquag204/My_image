@@ -4,6 +4,7 @@ on:
     paths:
       - '**.xml'
       - '**.drawio'
+  workflow_dispatch:
 
 jobs:
   drawio-export:
